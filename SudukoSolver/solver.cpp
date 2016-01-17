@@ -70,15 +70,15 @@ bool Solver::checkBox(int R, int C, int guessPuzzle[rows][cols], int value) {
 
 	return true;
 }
-
+/*
 void Solver::resetPuzzle() {
-	//for (int r = 0; r < rows; r++) {
-	///	for (int c = 0; c < cols; c++) {
+	for (int r = 0; r < rows; r++) {
+		for (int c = 0; c < cols; c++) {
 			//guessPuzzle[r][c] = correctPuzzle[r][c];
-		//}
-	//}
+		}
+	}
 }
-
+*/
 bool Solver::checkForCell(int &curr_row, int &curr_col, int guessPuzzle[rows][cols]){
 	for(curr_row = 0; curr_row < rows; curr_row++){
 		for(curr_col = 0; curr_col < cols; curr_col++){
